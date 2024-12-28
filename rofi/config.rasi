@@ -1,1 +1,1 @@
-@theme "/usr/share/rofi/themes/dmenu.rasi"
+@theme "~/.config/rofi/themes/dmenu.rasi"

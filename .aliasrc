@@ -15,8 +15,10 @@ alias xcache='sudo rm -rf /var/cache/xbps/*'
 
 alias ll='lsd -l'
 alias la='lsd -la'
+alias yaudio='yt-dlp -x --audio-format mp3 --audio-quality 320k'
+alias yvideo='yt-dlp -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]" -o "%(title)s.%(ext)s" --merge-output-format mkv'
 
-alias netmon='doas /usr/bin/iftop -i wlp3s0'
+alias netmon='doas /usr/bin/iftop -i wlo1'
 alias patchy='patch -p1 <'
 alias cat='bat'
 alias yt='ytfzf --pages=2 -t -l'
